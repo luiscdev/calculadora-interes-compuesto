@@ -7,6 +7,8 @@ import Balance from './components/Balance';
 import { useState } from 'react';
 import * as Yup from 'yup';
 
+console.log('hola')
+
 const compundInterest = (deposit, contribution, years, rate) => {
   let total = deposit
   for(let i = 0; i < years; i++) {
